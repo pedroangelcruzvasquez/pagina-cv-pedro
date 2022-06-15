@@ -1,0 +1,57 @@
+#container {
+    height: 550px;
+    background-color: black;
+    position: relative;
+  }
+  #container img {
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+    max-width: 80%;
+  }
+  #container-flex {
+    height: 550px;
+    background-color: grey;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #container-flex img {
+     max-width: 80%;
+  }
+  footer{
+    width: 70%;
+    clear: both;
+    padding: 60px;
+    background-color: #000000;
+  }
+  footer p{
+    color: white;
+    text-align: center;
+  }
+  header{
+    background-color: #241010;
+    overflow: hidden; /* Para limpiar los float: La técnica de corregir los problemas creados por los elementos posicionados de forma flotante se suele denominar "limpiar los float". */
+    width: 100%;
+  }
+  header nav ul li{
+    list-style: none;
+    float: left;
+  }
+  header nav ul li a{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    color: #ffffff;
+  }
+  header nav ul li a:hover{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+  #a1 {text-align: center ; color:rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 60px;}
+  #a2 {text-align: center ; color:rgb(255, 255, 255); font-family: Arial; font-size: 18px;}
